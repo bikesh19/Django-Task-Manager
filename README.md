@@ -71,26 +71,26 @@ In this application:
 ## Setup Instructions
 
 
-# 1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/bikesh19/Django-Task-Manager.git
 cd Django-Task-Manager
 
-# 2. Create and activate a virtual environment
+### 2. Create and activate a virtual environment
 python -m venv venv
 venv\Scripts\activate
 
-# 3. Install dependencies
+### 3. Install dependencies
 pip install django
 
-# 4. Apply database migrations
+### 4. Apply database migrations
 python manage.py makemigrations
 python manage.py migrate
 
-# 5. Run the development server
+### 5. Run the development server
 python manage.py runserver
 
-# 6. Open the application in your browser
-# http://127.0.0.1:8000/
+### 6. Open the application in your browser
+http://127.0.0.1:8000/
 
 
 ---
